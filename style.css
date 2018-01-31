@@ -114,3 +114,40 @@
     border-left: none;
     transform: rotate(20deg);
 }
+
+.lowerLip-wrapper {
+    border: 1px solid red;
+    width: 200px;
+    height: 2000px;
+    background: palevioletred;
+    left: 50%;
+    margin-left: -100px;
+    border-radius:100px/900px;
+    position: absolute;
+    bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
