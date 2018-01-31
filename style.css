@@ -91,3 +91,26 @@
     bottom: 20px;
 }
 
+.upperLip {
+    width: 90px;
+    height: 20px;
+    border: 3px solid red;
+    position: absolute;
+    top: 58px;
+}
+
+.upperLip.left {
+    right: 50%;
+    border-bottom-left-radius: 40px 20px;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-20deg);
+}
+
+.upperLip.right {
+    left: 50%;
+    border-bottom-right-radius: 40px 20px;
+    border-top: none;
+    border-left: none;
+    transform: rotate(20deg);
+}
