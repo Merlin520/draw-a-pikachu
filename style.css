@@ -24,6 +24,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: yellow;
 }
 
 .nose {
@@ -69,5 +70,24 @@
     margin-left: 100px;
 }
 
+.face {
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    background: red
+}
 
+.face.left {
+    right: 50%;
+    margin-right: 140px;
+    bottom: 20px;
+}
+
+.face.right {
+    left: 50%;
+    margin-left: 140px;
+    bottom: 20px;
+}
 
